@@ -14,30 +14,32 @@ Cloud Native Security encompasses many, many things these days. We do not expect
 
 # The Project
 
-To get a handle on who you are, what your drive is, and how we can best support your success, we have a few asks.. Get as far as you can, and be honest with yourself about how much time you have. We're happy to give you more if you need it, communicate with us when you're ready! At a high level, we'd like you to attempt the following:
+To get a handle on who you are, what your drive is, and how we can best support your success, we have a few asks.. Get as far as you can, and be honest with yourself about how much time you have. We're happy to give you more if you need it. Communicate with us when you're ready! At a high level, we'd like you to attempt the following:
 
-1. Create a Managed Kubernetes cluster in your cloud provider of choice - Do this however you want (AWS/EKS, Azure/AKS, GCP/GKE - Lots of free 'credit' options out there.)
+## 1 - Prepare the prerequisites
+- Create a Managed Kubernetes cluster in your cloud provider of choice - Do this however you want (AWS/EKS, Azure/AKS, GCP/GKE - Lots of free 'credit' options out there.)
     - (Note: A node with 4CPU and 8GB of RAM should be fine to run the Sysdig agent on with the below voting app)
     - If you're building in the cloud, and you're new to the cloud, learn about billing alerts!
     - Turn off or scale down your cluster when you're not using it, but **don't destroy it!**
-3. Request a Sysdig Trial from your hiring team.
-4. Connect your cloud account to Sysdig using the onboarding Wizard (https://docs.sysdig.com/en/sysdig-secure/integrations-sysdig-agents/)
-5. Install the Sysdig Shields in your Kubernetes cluster. Once again, we suggest using the onboarding Wizard (https://docs.sysdig.com/en/sysdig-secure/integrations-sysdig-agents/)
-6. Install the classic *voting app* into your K8s cluster (https://github.com/dockersamples/example-voting-app). Try to expose the app so you can browse to the UI and see it working
-7. Get Creative and build some stuff in Sysdig.
-    - Analyze the vulnerability scan results of the images being used for the Voting App
-    - Compliance? Set up a Zone for your App & repo. Configure a benchmark to run. Review the results and understand which recommendation can be used to fix the findings
-    - Enable the Runtime Threat Detection Policies, including the medium severity ones, and generate some events. Then, investigate what was detected and play around with the process tree, activity audit, and everything you find interesting to respond to threats or triage the event.
-8. Prepare a short demo around the findings you have discovered. Put the focus on how the platform can be used and integrated into potential client processes and workflows. So, don't destroy your cluster! We want to look at it with you.
+- Install the classic *voting app* into your K8s cluster (https://github.com/dockersamples/example-voting-app)
+- Request a Sysdig Trial from your hiring team.
 
-# Additional Resources
+## 2 - Integrate the Sysdig Components:
+- Connect your cloud account to Sysdig using the onboarding Wizard (https://docs.sysdig.com/en/sysdig-secure/integrations-sysdig-agents/)
+- Install the Sysdig Shields in your Kubernetes cluster. Once again, we suggest using the onboarding Wizard (https://docs.sysdig.com/en/sysdig-secure/integrations-sysdig-agents/)
+
+## 3 - Prepare a short demo track
+- Get Creative and explore the findings discovered by the platform:
+    - Analyze the vulnerability scan results of the images being used for the Voting App
+    - Set up a Zone for your application, and configure a compliance policy. Review the results and understand which recommendation can be used to fix the findings
+    - Enable the Runtime Threat Detection Policies, including the medium severity ones, and generate some events. Then, investigate what was detected and play around with the process tree, activity audit, and everything you find interesting to respond to threats or triage the event.
+- Prepare a short demo around the findings you have discovered. Put the focus on how the platform can be used by a potential client (which areas are more relevant for you, how they can be used to enhance potential existing client processes and workflows). So, don't destroy your cluster! We want to look at it with you.
+
+## Additional Resources
 
 By no means are we saying you need to do these things. These are resources you might find helpful to learn about K8s and the Cloud Native world.
 
-**Sysdig - Learn Cloud Native** - https://sysdig.com/learn-cloud-native/
-
-**Sysdig Docs** - https://docs.sysdig.com/
-
-**Kube Academy** - https://kube.academy/
-
-**Intro to Kubernetes** - https://acloudguru.com/course/introduction-to-kubernetes
+- **Sysdig - Learn Cloud Native** - https://sysdig.com/learn-cloud-native/
+- **Sysdig Docs** - https://docs.sysdig.com/
+- **Kube Academy** - https://kube.academy/
+- **Intro to Kubernetes** - https://acloudguru.com/course/introduction-to-kubernetes
