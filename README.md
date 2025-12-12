@@ -37,7 +37,7 @@ To get a handle on who you are, what your drive is, and how we can best support 
     - What you discovered
     - Why these findings matter
     - How would you explain the value to a customer
-    - How an organization can enahnce security workflows and proccesses using Sysdig
+    - How an organization can enhance security workflows and processes using Sysdig
     
 Important: Do not destroy your cluster or delete components: we want to walk through your findings together.
 
