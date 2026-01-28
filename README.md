@@ -26,7 +26,7 @@ To get a handle on who you are, what your drive is, and how we can best support 
 
 ## 2 - Integrate the Sysdig Components:
 - Connect your cloud account to Sysdig using the onboarding Wizard (https://docs.sysdig.com/en/sysdig-secure/integrations-cloud-accounts/)
-- Install the Sysdig Shields in your Kubernetes cluster. Once again, we suggest using the onboarding Wizard (https://docs.sysdig.com/en/sysdig-secure/integrations-sysdig-agents/)
+- Install the Sysdig Shields in your Kubernetes cluster. Once again, we suggest using the onboarding Wizard (https://docs.sysdig.com/en/sysdig-secure/install-shield-linux-kubernetes/)
 
 ## 3 - Prepare a short demo track (core part of the assessment)
 - Explore the platform and build a small demo track that highlights what you find most interesting or relevant from a security perspective. Here are some examples:
